@@ -1,4 +1,5 @@
-/*The provided code defines functions for managing and interacting with a Card structure in a poker game. Here's a breakdown of the functionality:
+/*The provided code defines functions for managing and interacting with a Card structure 
+in a poker game. Here's a breakdown of the functionality:
 
 1. card_init Function*/
 void card_init(Card * aCardPtr, int suit, int rank){

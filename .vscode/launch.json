@@ -9,7 +9,7 @@
             "args": ["10"], // Replace with any arguments your program needs
             "cwd": "${workspaceFolder}",
             "env": {},
-            "preLaunchTask": "build" // Added preLaunchTask
+            //"preLaunchTask": "build" // Added preLaunchTask
         }
     ]
 }

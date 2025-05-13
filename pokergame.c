@@ -1,8 +1,7 @@
 #include "pokergame.h"
 
 int main(int argc, char **argv){
-  int i=0;
-  int j=0;
+   int i=0, j=0;
   int setloop=1;     /*a set is a completely new redraw from a full deck. keep playing new sets until only one player has all the money*/
   int roundloop=1;   /*each set is made up of 2 rounds. players left after the 2nd round reveal their cards*/
   int numbankruptplayers=0;
@@ -11,7 +10,11 @@ int main(int argc, char **argv){
   Card ** tmpCard = (Card **)malloc(sizeof(Card *));
   Deck * playingDeck = (Deck *)malloc(sizeof(Deck));
   Player ** players = (Player **)malloc(sizeof(Player*)*NUMPLAYERS);
-  int sims = atoi(argv[1]);//runs 32*sims simulations
+  if (argc < 2) {
+      fprintf(stderr, "Usage: %s <number_of_simulations>\n", argv[0]);
+      return 1;
+  }
+  int sims = atoi(argv[1]); // runs 32*sims simulations
 
   int abet=0;          /*temp var to hold a bet*/
   int pool=0;          /*total money bet by players during a set, i.e. the amount that goes to the winner*/

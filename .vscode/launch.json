@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Pokergame",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/pokergame", // Path to the compiled executable
+            "args": ["10"], // Replace with any arguments your program needs
+            "cwd": "${workspaceFolder}",
+            "env": {},
+            "preLaunchTask": "build" // Added preLaunchTask
+        }
+    ]
+}

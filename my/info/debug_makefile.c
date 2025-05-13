@@ -55,3 +55,42 @@ Inspect variables using print <variable_name>.
 (gdb) run
 (gdb) step
 (gdb) print some_variable
+
+//////////////////////////////////////
+5. Debugging in Visual Studio Code
+If you're using Visual Studio Code, you can configure debugging by creating a launch.json file 
+in the .vscode folder. Here's an example configuration for gdb:
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Pokergame",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/pokergame",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "miDebuggerArgs": "",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}

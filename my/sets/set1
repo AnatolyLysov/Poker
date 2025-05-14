@@ -1,0 +1,790 @@
+Your chips: $9
+How much do you want to add to the pool? (Enter -1 to fold)1
+
+The advisor says: I think you should discard 2 cards:
+[1] 2 of Hearts
+[3] 10 of Clubs
+Enter the number[1-5] of ONE card you wish to discard, or 0 if done discarding, or 6 to fold:1
+     Discarding: 2 of Hearts
+
+Enter the number[1-5] of ONE card you wish to discard, or 0 if done discarding, or 6 to fold:3
+     Discarding: 10 of Clubs
+
+Enter the number[1-5] of ONE card you wish to discard, or 0 if done discarding, or 6 to fold:0
+You decided to discard 2 cards.
+Player2 decided to add $20 to the pool.
+Player2 decided to discard 1 cards.
+Player3 decided to add $20 to the pool.
+Player3 decided to discard 4 cards.
+
+====================[Set: 16 Round: 2]====================
+
+The pool has $41
+Anatoly has $8 left and $1 in the pool.
+Player1 is bankrupt
+Player2 has $95 left and $20 in the pool.
+Player3 has $256 left and $20 in the pool.
+
+Your hand is:
+[1] 6 of Diamonds
+[2] 8 of Diamonds
+[3] 10 of Hearts
+[4] J of Clubs
+[5] J of Hearts
+You must add at least $19 to the pool to continue playing.
+Your chips: $8
+How much do you want to add to the pool? (Enter -1 to fold)-1
+You folded.
+Player2 decided to add $5 to the pool.
+Player2 decided to discard 2 cards.
+Player3 folded.
+
+Time for the showdown!
+
+Player2 has: Pair
+6 of Spades
+7 of Clubs
+7 of Spades
+8 of Hearts
+A of Diamonds
+
+Player2 wins the showdown with a Pair!!!
+
+Player2 won $46!!!
+
+====================[Set: 17 Round: 1]====================
+
+The pool has $0
+Anatoly has $8 left and $0 in the pool.
+Player1 is bankrupt
+Player2 has $136 left and $0 in the pool.
+Player3 has $256 left and $0 in the pool.
+
+Your hand is:
+[1] 7 of Clubs
+[2] 7 of Diamonds
+[3] 7 of Hearts
+[4] 9 of Hearts
+[5] 10 of Diamonds
+You must add at least $0 to the pool to continue playing.
+Your chips: $8
+How much do you want to add to the pool? (Enter -1 to fold)1
+
+The advisor says: I think you should discard 2 cards:
+[4] 9 of Hearts
+[5] 10 of Diamonds
+Enter the number[1-5] of ONE card you wish to discard, or 0 if done discarding, or 6 to fold:4
+     Discarding: 9 of Hearts
+
+Enter the number[1-5] of ONE card you wish to discard, or 0 if done discarding, or 6 to fold:5
+     Discarding: 10 of Diamonds
+
+Enter the number[1-5] of ONE card you wish to discard, or 0 if done discarding, or 6 to fold:0
+You decided to discard 2 cards.
+Player2 decided to add $31 to the pool.
+Player2 decided to discard 0 cards.
+Player3 folded.
+
+====================[Set: 17 Round: 2]====================
+
+The pool has $32
+Anatoly has $7 left and $1 in the pool.
+Player1 is bankrupt
+Player2 has $105 left and $31 in the pool.
+Player3 folded and has $0 in the pool.
+
+Your hand is:
+[1] 7 of Clubs
+[2] 7 of Diamonds
+[3] 7 of Hearts
+[4] 9 of Spades
+[5] A of Diamonds
+You must add at least $30 to the pool to continue playing.
+Your chips: $7
+How much do you want to add to the pool? (Enter -1 to fold)-1
+You folded.
+Player2 decided to add $0 to the pool.
+Player2 decided to discard 0 cards.
+
+Time for the showdown!
+
+Player2 has: Two Pair
+3 of Clubs
+8 of Diamonds
+8 of Hearts
+Q of Diamonds
+Q of Hearts
+
+Player2 wins the showdown with a Two Pair!!!
+
+Player2 won $32!!!
+
+====================[Set: 18 Round: 1]====================
+
+The pool has $0
+Anatoly has $7 left and $0 in the pool.
+Player1 is bankrupt
+Player2 has $137 left and $0 in the pool.
+Player3 has $256 left and $0 in the pool.
+
+Your hand is:
+[1] 4 of Diamonds
+[2] 5 of Hearts
+[3] 7 of Hearts
+[4] 7 of Clubs
+[5] 8 of Clubs
+You must add at least $0 to the pool to continue playing.
+Your chips: $7
+How much do you want to add to the pool? (Enter -1 to fold)1
+
+The advisor says: I think you should discard 1 card:
+[2] 5 of Hearts
+Enter the number[1-5] of ONE card you wish to discard, or 0 if done discarding, or 6 to fold:2
+     Discarding: 5 of Hearts
+
+Enter the number[1-5] of ONE card you wish to discard, or 0 if done discarding, or 6 to fold:0
+You decided to discard 1 cards.
+Player2 decided to add $24 to the pool.
+Player2 decided to discard 4 cards.
+Player3 folded.
+
+====================[Set: 18 Round: 2]====================
+
+The pool has $25
+Anatoly has $6 left and $1 in the pool.
+Player1 is bankrupt
+Player2 has $113 left and $24 in the pool.
+Player3 folded and has $0 in the pool.
+
+Your hand is:
+[1] 4 of Diamonds
+[2] 6 of Hearts
+[3] 7 of Hearts
+[4] 7 of Clubs
+[5] 8 of Clubs
+You must add at least $23 to the pool to continue playing.
+Your chips: $6
+How much do you want to add to the pool? (Enter -1 to fold)-1
+You folded.
+Player2 decided to add $5 to the pool.
+Player2 decided to discard 3 cards.
+
+Time for the showdown!
+
+Player2 has: Two Pair
+3 of Hearts
+10 of Clubs
+10 of Hearts
+Q of Spades
+Q of Hearts
+
+Player2 wins the showdown with a Two Pair!!!
+
+Player2 won $30!!!
+
+====================[Set: 19 Round: 1]====================
+
+The pool has $0
+Anatoly has $6 left and $0 in the pool.
+Player1 is bankrupt
+Player2 has $138 left and $0 in the pool.
+Player3 has $256 left and $0 in the pool.
+
+Your hand is:
+[1] 2 of Diamonds
+[2] 3 of Clubs
+[3] 5 of Diamonds
+[4] 7 of Clubs
+[5] J of Hearts
+You must add at least $0 to the pool to continue playing.
+Your chips: $6
+How much do you want to add to the pool? (Enter -1 to fold)0
+
+The advisor says: I think you should discard 4 cards:
+[1] 2 of Diamonds
+[2] 3 of Clubs
+[3] 5 of Diamonds
+[5] J of Hearts
+Enter the number[1-5] of ONE card you wish to discard, or 0 if done discarding, or 6 to fold:1
+     Discarding: 2 of Diamonds
+
+Enter the number[1-5] of ONE card you wish to discard, or 0 if done discarding, or 6 to fold:2
+     Discarding: 3 of Clubs
+
+Enter the number[1-5] of ONE card you wish to discard, or 0 if done discarding, or 6 to fold:3
+     Discarding: 5 of Diamonds
+
+Enter the number[1-5] of ONE card you wish to discard, or 0 if done discarding, or 6 to fold:5
+     Discarding: J of Hearts
+
+Enter the number[1-5] of ONE card you wish to discard, or 0 if done discarding, or 6 to fold:0
+You decided to discard 4 cards.
+Player2 decided to add $29 to the pool.
+Player2 decided to discard 2 cards.
+Player3 folded.
+
+====================[Set: 19 Round: 2]====================
+
+The pool has $29
+Anatoly has $6 left and $0 in the pool.
+Player1 is bankrupt
+Player2 has $109 left and $29 in the pool.
+Player3 folded and has $0 in the pool.
+
+Your hand is:
+[1] 5 of Hearts
+[2] 6 of Clubs
+[3] 7 of Clubs
+[4] 8 of Clubs
+[5] 10 of Spades
+You must add at least $29 to the pool to continue playing.
+Your chips: $6
+How much do you want to add to the pool? (Enter -1 to fold)-1
+You folded.
+Player2 decided to add $4 to the pool.
+Player2 decided to discard 0 cards.
+
+Time for the showdown!
+
+Player2 has: Two Pair
+8 of Spades
+8 of Hearts
+9 of Diamonds
+A of Clubs
+A of Spades
+
+Player2 wins the showdown with a Two Pair!!!
+
+Player2 won $33!!!
+
+====================[Set: 20 Round: 1]====================
+
+The pool has $0
+Anatoly has $6 left and $0 in the pool.
+Player1 is bankrupt
+Player2 has $138 left and $0 in the pool.
+Player3 has $256 left and $0 in the pool.
+
+Your hand is:
+[1] 4 of Hearts
+[2] 5 of Spades
+[3] 8 of Diamonds
+[4] 9 of Hearts
+[5] J of Clubs
+You must add at least $0 to the pool to continue playing.
+Your chips: $6
+How much do you want to add to the pool? (Enter -1 to fold)1
+
+The advisor says: I think you should discard 3 cards:
+[2] 5 of Spades
+[4] 9 of Hearts
+[5] J of Clubs
+Enter the number[1-5] of ONE card you wish to discard, or 0 if done discarding, or 6 to fold:2
+     Discarding: 5 of Spades
+
+Enter the number[1-5] of ONE card you wish to discard, or 0 if done discarding, or 6 to fold:4
+     Discarding: 9 of Hearts
+
+Enter the number[1-5] of ONE card you wish to discard, or 0 if done discarding, or 6 to fold:5
+     Discarding: J of Clubs
+
+Enter the number[1-5] of ONE card you wish to discard, or 0 if done discarding, or 6 to fold:0
+You decided to discard 3 cards.
+Player2 decided to add $17 to the pool.
+Player2 decided to discard 3 cards.
+Player3 decided to add $33 to the pool.
+Player3 decided to discard 2 cards.
+
+====================[Set: 20 Round: 2]====================
+
+The pool has $51
+Anatoly has $5 left and $1 in the pool.
+Player1 is bankrupt
+Player2 has $121 left and $17 in the pool.
+Player3 has $223 left and $33 in the pool.
+
+Your hand is:
+[1] 2 of Diamonds
+[2] 4 of Hearts
+[3] 4 of Spades
+[4] 8 of Diamonds
+[5] 9 of Diamonds
+You must add at least $32 to the pool to continue playing.
+Your chips: $5
+How much do you want to add to the pool? (Enter -1 to fold)0
+You must add at least 32 to the pool. Please try again. (Enter -1 to fold).-1
+You folded.
+Player2 folded.
+Player3 decided to add $0 to the pool.
+Player3 decided to discard 3 cards.
+
+Time for the showdown!
+
+Player3 has: Pair
+5 of Diamonds
+6 of Spades
+10 of Diamonds
+10 of Clubs
+Q of Clubs
+
+Player3 wins the showdown with a Pair!!!
+
+Player3 won $51!!!
+
+====================[Set: 21 Round: 1]====================
+
+The pool has $0
+Anatoly has $5 left and $0 in the pool.
+Player1 is bankrupt
+Player2 has $121 left and $0 in the pool.
+Player3 has $274 left and $0 in the pool.
+
+Your hand is:
+[1] 2 of Spades
+[2] 4 of Clubs
+[3] 6 of Diamonds
+[4] 8 of Clubs
+[5] A of Spades
+You must add at least $0 to the pool to continue playing.
+Your chips: $5
+How much do you want to add to the pool? (Enter -1 to fold)0
+
+The advisor says: I think you should discard 4 cards:
+[1] 2 of Spades
+[3] 6 of Diamonds
+[4] 8 of Clubs
+[5] A of Spades
+Enter the number[1-5] of ONE card you wish to discard, or 0 if done discarding, or 6 to fold:1
+     Discarding: 2 of Spades
+
+Enter the number[1-5] of ONE card you wish to discard, or 0 if done discarding, or 6 to fold:3
+     Discarding: 6 of Diamonds
+
+Enter the number[1-5] of ONE card you wish to discard, or 0 if done discarding, or 6 to fold:4
+     Discarding: 8 of Clubs
+
+Enter the number[1-5] of ONE card you wish to discard, or 0 if done discarding, or 6 to fold:5
+     Discarding: A of Spades
+
+Enter the number[1-5] of ONE card you wish to discard, or 0 if done discarding, or 6 to fold:0
+You decided to discard 4 cards.
+Player2 decided to add $18 to the pool.
+Player2 decided to discard 1 cards.
+Player3 folded.
+
+====================[Set: 21 Round: 2]====================
+
+The pool has $18
+Anatoly has $5 left and $0 in the pool.
+Player1 is bankrupt
+Player2 has $103 left and $18 in the pool.
+Player3 folded and has $0 in the pool.
+
+Your hand is:
+[1] 4 of Clubs
+[2] 5 of Hearts
+[3] 7 of Hearts
+[4] 8 of Spades
+[5] Q of Hearts
+You must add at least $18 to the pool to continue playing.
+Your chips: $5
+How much do you want to add to the pool? (Enter -1 to fold)-1
+You folded.
+Player2 decided to add $32 to the pool.
+Player2 decided to discard 0 cards.
+
+Time for the showdown!
+
+Player2 has: Straight
+4 of Spades
+5 of Spades
+6 of Clubs
+7 of Spades
+8 of Diamonds
+
+Player2 wins the showdown with a Straight!!!
+
+Player2 won $50!!!
+
+====================[Set: 22 Round: 1]====================
+
+The pool has $0
+Anatoly has $5 left and $0 in the pool.
+Player1 is bankrupt
+Player2 has $121 left and $0 in the pool.
+Player3 has $274 left and $0 in the pool.
+
+Your hand is:
+[1] 6 of Diamonds
+[2] 8 of Spades
+[3] K of Spades
+[4] A of Diamonds
+[5] A of Clubs
+You must add at least $0 to the pool to continue playing.
+Your chips: $5
+How much do you want to add to the pool? (Enter -1 to fold)1
+
+The advisor says: I think you should discard 2 cards:
+[1] 6 of Diamonds
+[2] 8 of Spades
+Enter the number[1-5] of ONE card you wish to discard, or 0 if done discarding, or 6 to fold:1
+     Discarding: 6 of Diamonds
+
+Enter the number[1-5] of ONE card you wish to discard, or 0 if done discarding, or 6 to fold:2
+     Discarding: 8 of Spades
+
+Enter the number[1-5] of ONE card you wish to discard, or 0 if done discarding, or 6 to fold:0
+You decided to discard 2 cards.
+Player2 decided to add $24 to the pool.
+Player2 decided to discard 3 cards.
+Player3 decided to add $31 to the pool.
+Player3 decided to discard 3 cards.
+
+====================[Set: 22 Round: 2]====================
+
+The pool has $56
+Anatoly has $4 left and $1 in the pool.
+Player1 is bankrupt
+Player2 has $97 left and $24 in the pool.
+Player3 has $243 left and $31 in the pool.
+
+Your hand is:
+[1] 2 of Diamonds
+[2] 2 of Spades
+[3] K of Spades
+[4] A of Diamonds
+[5] A of Clubs
+You must add at least $30 to the pool to continue playing.
+Your chips: $4
+How much do you want to add to the pool? (Enter -1 to fold)-1
+You folded.
+Player2 folded.
+Player3 decided to add $0 to the pool.
+Player3 decided to discard 2 cards.
+
+Time for the showdown!
+
+Player3 has: Pair
+3 of Spades
+5 of Spades
+9 of Spades
+10 of Clubs
+10 of Diamonds
+
+Player3 wins the showdown with a Pair!!!
+
+Player3 won $56!!!
+
+====================[Set: 23 Round: 1]====================
+
+The pool has $0
+Anatoly has $4 left and $0 in the pool.
+Player1 is bankrupt
+Player2 has $97 left and $0 in the pool.
+Player3 has $299 left and $0 in the pool.
+
+Your hand is:
+[1] 7 of Clubs
+[2] 8 of Spades
+[3] 9 of Spades
+[4] Q of Hearts
+[5] K of Diamonds
+You must add at least $0 to the pool to continue playing.
+Your chips: $4
+How much do you want to add to the pool? (Enter -1 to fold)-1
+You folded.
+Player2 decided to add $19 to the pool.
+Player2 decided to discard 4 cards.
+Player3 decided to add $20 to the pool.
+Player3 decided to discard 4 cards.
+
+====================[Set: 23 Round: 2]====================
+
+The pool has $39
+Anatoly folded and has $0 in the pool.
+Player1 is bankrupt
+Player2 has $78 left and $19 in the pool.
+Player3 has $279 left and $20 in the pool.
+
+Player2 decided to add $18 to the pool.
+Player2 decided to discard 1 cards.
+Player3 folded.
+
+Time for the showdown!
+
+Player2 has: Full House
+6 of Hearts
+6 of Diamonds
+A of Clubs
+A of Spades
+A of Hearts
+
+Player2 wins the showdown with a Full House!!!
+
+Player2 won $57!!!
+
+====================[Set: 24 Round: 1]====================
+
+The pool has $0
+Anatoly has $4 left and $0 in the pool.
+Player1 is bankrupt
+Player2 has $117 left and $0 in the pool.
+Player3 has $279 left and $0 in the pool.
+
+Your hand is:
+[1] 2 of Hearts
+[2] 6 of Clubs
+[3] 7 of Hearts
+[4] 7 of Diamonds
+[5] 10 of Spades
+You must add at least $0 to the pool to continue playing.
+Your chips: $4
+How much do you want to add to the pool? (Enter -1 to fold)-1
+You folded.
+Player2 decided to add $18 to the pool.
+Player2 decided to discard 2 cards.
+Player3 decided to add $29 to the pool.
+Player3 decided to discard 2 cards.
+
+====================[Set: 24 Round: 2]====================
+
+The pool has $47
+Anatoly folded and has $0 in the pool.
+Player1 is bankrupt
+Player2 has $99 left and $18 in the pool.
+Player3 has $250 left and $29 in the pool.
+
+Player2 folded.
+Player3 decided to add $0 to the pool.
+Player3 decided to discard 2 cards.
+
+Time for the showdown!
+
+Player3 has: Pair
+5 of Diamonds
+Q of Diamonds
+Q of Hearts
+K of Clubs
+A of Spades
+
+Player3 wins the showdown with a Pair!!!
+
+Player3 won $47!!!
+
+====================[Set: 25 Round: 1]====================
+
+The pool has $0
+Anatoly has $4 left and $0 in the pool.
+Player1 is bankrupt
+Player2 has $99 left and $0 in the pool.
+Player3 has $297 left and $0 in the pool.
+
+Your hand is:
+[1] 2 of Diamonds
+[2] 3 of Diamonds
+[3] J of Spades
+[4] Q of Spades
+[5] K of Spades
+You must add at least $0 to the pool to continue playing.
+Your chips: $4
+How much do you want to add to the pool? (Enter -1 to fold)-1
+You folded.
+Player2 decided to add $16 to the pool.
+Player2 decided to discard 3 cards.
+Player3 decided to add $21 to the pool.
+Player3 decided to discard 5 cards.
+
+====================[Set: 25 Round: 2]====================
+
+The pool has $37
+Anatoly folded and has $0 in the pool.
+Player1 is bankrupt
+Player2 has $83 left and $16 in the pool.
+Player3 has $276 left and $21 in the pool.
+
+Player2 decided to add $7 to the pool.
+Player2 decided to discard 4 cards.
+Player3 folded.
+
+Time for the showdown!
+
+Player2 has: Two Pair
+2 of Hearts
+8 of Spades
+8 of Diamonds
+9 of Spades
+9 of Hearts
+
+Player2 wins the showdown with a Two Pair!!!
+
+Player2 won $44!!!
+
+====================[Set: 26 Round: 1]====================
+
+The pool has $0
+Anatoly has $4 left and $0 in the pool.
+Player1 is bankrupt
+Player2 has $120 left and $0 in the pool.
+Player3 has $276 left and $0 in the pool.
+
+Your hand is:
+[1] 4 of Diamonds
+[2] 8 of Spades
+[3] 8 of Hearts
+[4] J of Spades
+[5] K of Clubs
+You must add at least $0 to the pool to continue playing.
+Your chips: $4
+How much do you want to add to the pool? (Enter -1 to fold)-1
+You folded.
+Player2 decided to add $24 to the pool.
+Player2 decided to discard 2 cards.
+Player3 decided to add $33 to the pool.
+Player3 decided to discard 2 cards.
+
+====================[Set: 26 Round: 2]====================
+
+The pool has $57
+Anatoly folded and has $0 in the pool.
+Player1 is bankrupt
+Player2 has $96 left and $24 in the pool.
+Player3 has $243 left and $33 in the pool.
+
+Player2 folded.
+Player3 decided to add $0 to the pool.
+Player3 decided to discard 1 cards.
+
+Time for the showdown!
+
+Player3 has: Pair
+2 of Spades
+7 of Clubs
+9 of Clubs
+A of Clubs
+A of Diamonds
+
+Player3 wins the showdown with a Pair!!!
+
+Player3 won $57!!!
+
+====================[Set: 27 Round: 1]====================
+
+The pool has $0
+Anatoly has $4 left and $0 in the pool.
+Player1 is bankrupt
+Player2 has $96 left and $0 in the pool.
+Player3 has $300 left and $0 in the pool.
+
+Your hand is:
+[1] 3 of Clubs
+[2] 7 of Spades
+[3] Q of Spades
+[4] K of Diamonds
+[5] K of Spades
+You must add at least $0 to the pool to continue playing.
+Your chips: $4
+How much do you want to add to the pool? (Enter -1 to fold)-1
+You folded.
+Player2 decided to add $17 to the pool.
+Player2 decided to discard 2 cards.
+Player3 decided to add $20 to the pool.
+Player3 decided to discard 3 cards.
+
+====================[Set: 27 Round: 2]====================
+
+The pool has $37
+Anatoly folded and has $0 in the pool.
+Player1 is bankrupt
+Player2 has $79 left and $17 in the pool.
+Player3 has $280 left and $20 in the pool.
+
+Player2 folded.
+Player3 decided to add $21 to the pool.
+Player3 decided to discard 1 cards.
+
+Time for the showdown!
+
+Player3 has: High Card
+2 of Spades
+6 of Spades
+8 of Spades
+J of Diamonds
+A of Spades
+
+Player3 wins the showdown with a High Card!!!
+
+Player3 won $58!!!
+
+====================[Set: 28 Round: 1]====================
+
+The pool has $0
+Anatoly has $4 left and $0 in the pool.
+Player1 is bankrupt
+Player2 has $79 left and $0 in the pool.
+Player3 has $317 left and $0 in the pool.
+
+Your hand is:
+[1] 8 of Clubs
+[2] Q of Diamonds
+[3] Q of Clubs
+[4] K of Spades
+[5] K of Hearts
+You must add at least $0 to the pool to continue playing.
+Your chips: $4
+How much do you want to add to the pool? (Enter -1 to fold)4
+
+The advisor says: I think you should keep all your cards.
+Enter the number[1-5] of ONE card you wish to discard, or 0 if done discarding, or 6 to fold:0
+You decided to discard 0 cards.
+Player2 decided to add $24 to the pool.
+Player2 decided to discard 3 cards.
+Player3 folded.
+
+====================[Set: 28 Round: 2]====================
+
+The pool has $28
+Anatoly has $0 left and $4 in the pool.
+Player1 is bankrupt
+Player2 has $55 left and $24 in the pool.
+Player3 folded and has $0 in the pool.
+
+Player2 decided to add $3 to the pool.
+Player2 decided to discard 2 cards.
+
+Time for the showdown!
+
+Anatoly has: Two Pair
+8 of Clubs
+Q of Diamonds
+Q of Clubs
+K of Spades
+K of Hearts
+
+Player2 has: Pair
+5 of Clubs
+6 of Spades
+8 of Spades
+8 of Diamonds
+9 of Diamonds
+
+You won the showdown with a Two Pair!!!
+
+You won $31!!!
+
+====================[Set: 29 Round: 1]====================
+
+The pool has $0
+Anatoly has $31 left and $0 in the pool.
+Player1 is bankrupt
+Player2 has $52 left and $0 in the pool.
+Player3 has $317 left and $0 in the pool.
+
+Your hand is:
+[1] 7 of Spades
+[2] 10 of Hearts
+[3] J of Clubs
+[4] K of Diamonds
+[5] A of Spades
+You must add at least $0 to the pool to continue playing.
+Your chips: $31
+How much do you want to add to the po

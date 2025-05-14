@@ -1,3 +1,4 @@
+/*
 Here are some commonly used gdb commands to debug your pokergame program:
 run                # Start the program
 break <location>   # Set a breakpoint at the specified location
@@ -151,3 +152,4 @@ list
 To quit the debugger:
 
 quit
+*/

@@ -1,14 +1,19 @@
-/*The provided code is the main implementation of a Monte Carlo-based poker game simulation. It defines the game flow, player interactions, and decision-making logic. Here's a detailed explanation of the key components:
+/*The provided code is the main implementation of a Monte Carlo-based poker game simulation. 
+It defines the game flow, player interactions, and decision-making logic. Here's a detailed 
+explanation of the key components:
 
 1. main Function
-The main function is the entry point of the program. It initializes the game, manages the game loop, and handles cleanup.
+The main function is the entry point of the program. It initializes the game, manages the game loop, 
+and handles cleanup.
 
 Initialization
 Variables:
 
-setloop and roundloop: Control the game flow. setloop tracks sets (complete games), and roundloop tracks rounds within a set.
+setloop and roundloop: Control the game flow. setloop tracks sets (complete games), and roundloop 
+tracks rounds within a set.
 numbankruptplayers and numfolded: Track the number of bankrupt and folded players.
-tmpCard, playingDeck, and players: Dynamically allocated memory for temporary cards, the deck, and the players.
+tmpCard, playingDeck, and players: Dynamically allocated memory for temporary cards, the deck, and 
+the players.
 sims: Number of Monte Carlo simulations to run, derived from the command-line argument.
 maxdiscards, maxthrown, and maxvalue: Variables used by the Monte Carlo advisor to suggest discards and bets.
 Game Setup:

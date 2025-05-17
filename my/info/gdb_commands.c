@@ -12,7 +12,7 @@ quit               # Exit gdb
 1. Start gdb
 Run gdb with your compiled program:
 
-./gdb ./pokergame
+gdb ./pokergame
 
 2. Run the Program
 Run the program with arguments (e.g., number of simulations):

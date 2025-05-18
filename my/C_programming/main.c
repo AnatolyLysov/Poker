@@ -1,22 +1,28 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 int main()
 {
-    int m[9][9];
-    int i, j;
-for (i = 0; i < 9; i++) {
-        for (j = 0; j < 9; j++) {
-            if (j ==0) 
-                m[i][j] = i;
-            else if (i == 0)
-                m[i][j] = j;
-            else
-                m[i][j] = m[i][0] * m[0][j];
-            printf("%d \t", m[i][j] );
+  // Create a 2D array of characters
+    // with 10 rows and 21 columns
+    // The first and last rows and columns will be filled with '#'
+    char mas[10][21];
+
+    for (int i = 0; i < 10; i++)
+    {
+       for (int j = 0; j < 20; j++)
+       {
+           if (j == 0 || j == 19 || i == 0 || i == 9) // border
+               mas[i][j] = '#';
+           else // inside
+               mas[i][j] = ' ';
         }
-        printf("\n");
     }
-         return 0;
+    for (int i = 0; i < 10; i++)
+    {
+       mas[i][20] = '\0';// end of string
+       printf("%s\n", mas[i]);// print each row
     }
+  // Free the allocated memory      
+    return 0;
+}

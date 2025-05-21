@@ -66,6 +66,9 @@
             }
             refresh();
 
+            cx = x;
+            cy = y;
+
             key = getch();
 
             if (key == 'w') {
@@ -81,17 +84,16 @@
                 mas[y][x] = ' ';
                 x++;
             }
-
-            if (x < 1) x = 1;
-            if (x > 18) x = 18;
-            if (y < 1) y = 1;
-            if (y > 8) y = 8;
-
+            if(mas[y][x] == '#') {
+                x = cx;
+                y = cy;
+            }
         } while (key != 'q');
 
         endwin();
         return 0;
     }
+
 /*You are getting two errors:
 1.	Implicit declaration of function ‘getch’:
 The compiler does not know about the getch() function because its declaration is missing or the required header is not included.

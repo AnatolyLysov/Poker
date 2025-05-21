@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
     /*
         * This program creates a 10x20 array of characters and fills it with a border of '#' characters.
         * The player can move a character '@' around the array using the 'w', 'a', 's', and 'd' keys.
@@ -42,10 +43,17 @@
     int main(void)
     {
         char mas[10][21];
-        int x = 10, y = 5;
+        int x = 10, y = 5;// initial position of dog: '@'
         int key;
         int cx, cy; // cursor position
+        int ax = 5, ay = 3; // initial position of apple: '*'
 
+        srand(time(NULL)); // seed for random number generation
+        // Randomly place the apple in the array
+        ax = rand() % 18 + 1; // random x position for apple
+        ay = rand() % 8 + 1; // random y position for apple
+        
+        // Initialize the ncurses library 
         initscr();
         noecho();
         cbreak();
@@ -59,6 +67,7 @@
             sprintf(mas[9], "####################");
 
             mas[y][x] = '@';
+            mas[ay][ax] = '*';
 
             clear();
             for (int i = 0; i < 10; i++) {
@@ -88,28 +97,14 @@
                 x = cx;
                 y = cy;
             }
+            if(mas[y][x] == '*') {
+                // Apple collected
+                ax = rand() % 18 + 1;
+                ay = rand() % 8 + 1;
+            }
         } while (key != 'q');
 
         endwin();
         return 0;
     }
 
-/*You are getting two errors:
-1.	Implicit declaration of function ‘getch’:
-The compiler does not know about the getch() function because its declaration is missing or the required header is not included.
-2.	Undefined reference to ‘getch’:
-The linker cannot find the implementation of getch(). On Linux, getch() is not part of the standard C library. It is available in conio.h (which is for DOS/Windows), but not on Linux.
-Solution:
-On Linux, you can use getchar() instead of getch(), or use libraries like ncurses for similar functionality.
-To use getchar(), replace getch() with getchar() in your code.
-If you need getch()-like behavior (no Enter key required), install and use ncurses:
-sudo apt-get install libncurses5-dev
-gcc -Wall -g -o game_L12 game_L12.c -lncurses
-•	
-•	
-•	
-Replace getch() with getch() from ncurses and include <ncurses.h> in your code.
-Text to replace:
-•	{getch}: Replace with getchar() or use ncurses's getch()
-•	{#include <conio.h>}: Replace with #include <ncurses.h> if using ncurses
-*/

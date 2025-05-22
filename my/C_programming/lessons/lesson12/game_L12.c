@@ -47,6 +47,7 @@
         int key;
         int cx, cy; // cursor position
         int ax = 5, ay = 3; // initial position of apple: '*'
+        int apple_count = 0; // apple count
 
         srand(time(NULL)); // seed for random number generation
         // Randomly place the apple in the array
@@ -73,6 +74,14 @@
             for (int i = 0; i < 10; i++) {
                 printw("%s\n", mas[i]);
             }
+            
+            printw("Apples collected: %d\n", apple_count);
+            printw("Press 'q' to quit.\n");
+            printw("Use 'w', 'a', 's', 'd' to move.\n");
+            printw("Current position: (%d, %d)\n", x, y);
+            printw("Apple position: (%d, %d)\n", ax, ay);
+            printw("Press any key to continue...\n");
+            
             refresh();
 
             cx = x;
@@ -99,6 +108,9 @@
             }
             if(mas[y][x] == '*') {
                 // Apple collected
+                apple_count++;
+                mas[y][x] = ' ';
+                // Randomly place a new apple
                 ax = rand() % 18 + 1;
                 ay = rand() % 8 + 1;
             }

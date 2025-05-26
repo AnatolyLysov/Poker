@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define CNT 52
-int main(void) {
-    int i;
- 
+#define CNT 5
 
-    printf("%d\n", CNT);
-    printf("%d\n", sizeof(int));
+int main(void) {
+    int i = CNT;
+
+    printf("%d\n", i);
+
     return 0;
 }

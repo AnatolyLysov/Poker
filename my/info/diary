@@ -1,3 +1,5 @@
 sudo apt install gcc
 
-sudo apt install make 
+sudo apt install make
+ 
+aikidance@aikidance:~/Poker-1/deitel_how_to_program_in_c$ gcc -Wall -g page140.c -o page140

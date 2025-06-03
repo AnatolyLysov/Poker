@@ -8,5 +8,10 @@ gcc -Wall page147.c -lm -o page147
 
 sudo apt install gdb
 
-EOF имеет значение -1
+<stdio.h> #define EOF (-1) вводится на UNIX нажатием трех клавиш Return + CTRL + D
+
+размеры int отличаются от системы к системе, поэтому лучше использовать long
+
+
+
 

@@ -1,0 +1,178 @@
+Below is an example of a very simple 2D shooter written in C using SDL2. In this example the player (a rectangle) can move left/right with the arrow keys and shoot bullets upward with the space bar. Enemies are not included for brevity, but you can extend the logic in a similar way.
+
+To compile the code, you’ll need to have SDL2 installed. For example, on Linux you might compile with:
+
+gcc -o shooter main.c -lSDL2
+
+Below is the code:
+
+---
+
+```c
+#include <SDL2/SDL.h>
+#include <stdbool.h>
+#include <stdio.h>
+
+#define WINDOW_WIDTH 800
+#define WINDOW_HEIGHT 600
+
+#define PLAYER_WIDTH 50
+#define PLAYER_HEIGHT 30
+#define PLAYER_SPEED 5
+
+#define BULLET_WIDTH 5
+#define BULLET_HEIGHT 10
+#define BULLET_SPEED 7
+#define MAX_BULLETS 50
+
+// Structure for the player.
+typedef struct {
+    int x, y;
+} Player;
+
+// Structure for a bullet.
+typedef struct {
+    int x, y;
+    bool active;
+} Bullet;
+
+int main(int argc, char* argv[]) {
+    if (SDL_Init(SDL_INIT_VIDEO) < 0) {
+        printf("SDL could not initialize: %s\n", SDL_GetError());
+        return 1;
+    }
+    
+    SDL_Window* window = SDL_CreateWindow("Simple 2D Shooter",
+                                          SDL_WINDOWPOS_CENTERED,
+                                          SDL_WINDOWPOS_CENTERED,
+                                          WINDOW_WIDTH,
+                                          WINDOW_HEIGHT,
+                                          SDL_WINDOW_SHOWN);
+    if (!window) {
+        printf("Window could not be created: %s\n", SDL_GetError());
+        SDL_Quit();
+        return 1;
+    }
+    
+    SDL_Renderer* renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
+    if (!renderer) {
+        printf("Renderer could not be created: %s\n", SDL_GetError());
+        SDL_DestroyWindow(window);
+        SDL_Quit();
+        return 1;
+    }
+    
+    // Initialize the player in the middle-bottom of the screen.
+    Player player = {WINDOW_WIDTH / 2 - PLAYER_WIDTH / 2, WINDOW_HEIGHT - PLAYER_HEIGHT - 10};
+    
+    // Initialize an array to store bullets.
+    Bullet bullets[MAX_BULLETS] = {0};
+    
+    bool quit = false;
+    SDL_Event event;
+    
+    while (!quit) {
+        // Event processing
+        while (SDL_PollEvent(&event)) {
+            if (event.type == SDL_QUIT) {
+                quit = true;
+            } 
+            // Handle key down events
+            if (event.type == SDL_KEYDOWN) {
+                switch (event.key.keysym.sym) {
+                    case SDLK_ESCAPE:
+                        quit = true;
+                        break;
+                    case SDLK_LEFT:
+                        player.x -= PLAYER_SPEED;
+                        if (player.x < 0) player.x = 0;
+                        break;
+                    case SDLK_RIGHT:
+                        player.x += PLAYER_SPEED;
+                        if (player.x > WINDOW_WIDTH - PLAYER_WIDTH)
+                            player.x = WINDOW_WIDTH - PLAYER_WIDTH;
+                        break;
+                    case SDLK_SPACE: {
+                        // Find an inactive bullet to fire.
+                        for (int i = 0; i < MAX_BULLETS; ++i) {
+                            if (!bullets[i].active) {
+                                bullets[i].active = true;
+                                // Start the bullet from the top middle of the player.
+                                bullets[i].x = player.x + PLAYER_WIDTH / 2 - BULLET_WIDTH / 2;
+                                bullets[i].y = player.y;
+                                break;
+                            }
+                        }
+                        break;
+                    }
+                    default:
+                        break;
+                }
+            }
+        }
+        
+        // Update bullets
+        for (int i = 0; i < MAX_BULLETS; ++i) {
+            if (bullets[i].active) {
+                bullets[i].y -= BULLET_SPEED;
+                // Deactivate bullets that go off-screen.
+                if (bullets[i].y < 0) {
+                    bullets[i].active = false;
+                }
+            }
+        }
+        
+        // Rendering
+        // Clear screen with black color.
+        SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
+        SDL_RenderClear(renderer);
+        
+        // Draw the player (blue rectangle)
+        SDL_Rect playerRect = {player.x, player.y, PLAYER_WIDTH, PLAYER_HEIGHT};
+        SDL_SetRenderDrawColor(renderer, 0, 0, 255, 255);
+        SDL_RenderFillRect(renderer, &playerRect);
+        
+        // Draw active bullets (yellow rectangles)
+        SDL_SetRenderDrawColor(renderer, 255, 255, 0, 255);
+        for (int i = 0; i < MAX_BULLETS; ++i) {
+            if (bullets[i].active) {
+                SDL_Rect bulletRect = {bullets[i].x, bullets[i].y, BULLET_WIDTH, BULLET_HEIGHT};
+                SDL_RenderFillRect(renderer, &bulletRect);
+            }
+        }
+        
+        // Present the current rendering.
+        SDL_RenderPresent(renderer);
+        
+        // Delay to control game speed (~60 FPS)
+        SDL_Delay(16);
+    }
+    
+    // Clean up and quit.
+    SDL_DestroyRenderer(renderer);
+    SDL_DestroyWindow(window);
+    SDL_Quit();
+    return 0;
+}
+```
+
+---
+
+### Explanation
+
+1. **Initialization**
+   - SDL is initialized and a window plus a hardware-accelerated renderer are created.
+   - The player starts near the bottom center of the screen.
+
+2. **Input Handling**
+   - Arrow keys move the player left and right (keeping the player within window bounds).
+   - Pressing the space bar looks for an inactive bullet in the array and “fires” it from the player’s current position.
+   
+3. **Game Update Loop**
+   - Active bullets are updated by moving them upward and deactivated if they leave the screen.
+   - The renderer clears the screen, redraws the player and active bullets, and then presents the updated screen.
+
+4. **Cleanup**
+   - Renders, windows, and SDL are properly destroyed before exiting.
+
+This is a basic framework for a simple 2D shooter in C. You can expand on this by adding collision detection, enemy sprites, scorekeeping, and more complex game mechanics.

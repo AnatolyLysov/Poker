@@ -17,7 +17,7 @@ int computer = 0; // Represents the computer, could be an ID or index
 int main() {
     char * suit[] = {"Hearts", "Diamonds", "Clubs", "Spades"};
     char * face[] = {"Ace", "Deuce", "Three", "Fours", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King"};
-    int desk[4][13] = {0};
+    int deck[4][13] = {0};
     int offset;
     for (offset = 0; offset <= 3; offset++)
     {

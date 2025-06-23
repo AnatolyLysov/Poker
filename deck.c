@@ -4,7 +4,9 @@
 
 int deck_init(Deck * aDeckPtr){
   /*initialize a deck.
-mallocs DECK_SIZE number of pointers, all consecutive in memory, each pointing to an individual card struct. The card structs themselves may or may not be consecutive in memory, but we don't care. We will traverse the consecutive set of DECK_SIZE number of pointers to manipulate the card structs in stead. 
+mallocs DECK_SIZE number of pointers, all consecutive in memory, each pointing to an individual card struct. The card structs themselves 
+may or may not be consecutive in memory, but we don't care. We will traverse the consecutive set of DECK_SIZE number of pointers 
+to manipulate the card structs in stead. 
  */
   int card=FIRSTCARD;
   if((cards =(Card **)malloc(sizeof(Card*)*DECK_SIZE))==NULL)

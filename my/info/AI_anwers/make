@@ -1,0 +1,35 @@
+The error message `*** No rule to make target 'run'. Stop.` indicates that the `make` utility cannot find a rule for the target `run` in your Makefile. Here are some steps to troubleshoot and fix this issue:
+
+1. **Check the Makefile**: Open your Makefile and look for a target named `run`. It should look something like this:
+
+    ```makefile
+    run:
+        <commands to run your program>
+    ```
+
+   If there is no `run` target, you need to add it.
+
+2. **Add a Run Target**: If the `run` target is missing, you can add it to your Makefile. Here’s an example:
+
+    ```makefile
+    run: my_program
+        ./my_program
+    ```
+
+   Replace `my_program` with the name of your executable or the target you want to run.
+
+3. **Check for Typos**: Ensure there are no typos in the target name. Makefile targets are case-sensitive.
+
+4. **Make Sure the Target Exists**: If your `run` target depends on another target (like `my_program` in the example above), ensure that the dependent target is defined and can be built successfully.
+
+5. **Use the Correct Makefile**: If you have multiple Makefiles, ensure you are using the correct one. You can specify a Makefile with the `-f` option:
+
+    ```bash
+    make -f path/to/your/Makefile run
+    ```
+
+6. **Check for Dependencies**: If your `run` target requires certain files or dependencies that are not present, make sure they are available.
+
+7. **Run Make in the Correct Directory**: Ensure you are in the correct directory where the Makefile is located when you run the `make` command.
+
+After making the necessary changes, try running `make run` again. If you continue to encounter issues, please provide more details about your Makefile and the context in which you're working.

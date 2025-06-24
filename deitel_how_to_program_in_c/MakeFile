@@ -1,4 +1,3 @@
-compile:
-	gcc -o page367 page367.c
 run:
+	gcc -Wall -g -o page367 page367.c
 	./page367

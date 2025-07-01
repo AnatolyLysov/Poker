@@ -6,6 +6,10 @@ int main(){
    int (*fooPtr)(int);
    fooPtr = foo;
    printf("%p\n",fooPtr);
+
+   char str = {"Hello word!"};
+   printf("%p\n", str);
+
    return 0;
 }
 

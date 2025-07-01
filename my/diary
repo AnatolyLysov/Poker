@@ -21,6 +21,13 @@ run:
 -----------------------------------------
 aikidance@aikidance:~/Poker-1/deitel_how_to_program_in_c$ make -f ./Makefile run
 ------------------------------------
+page419: page419.o
+
+page419.o: page419.c 
+	gcc -Wall -g page419.c
+--------------------------
+
+
 
 
 

@@ -19,6 +19,8 @@ run:
 	gcc -Wall -g -o page367 page367.c
 	./page367
 -----------------------------------------
+aikidance@aikidance:~/Poker-1/deitel_how_to_program_in_c$ make -f ./Makefile run
+------------------------------------
 
 
 

@@ -1,3 +1,9 @@
-run:
-	gcc -Wall -g -o page367 page367.c
-	./page367
+page419: page419.o
+
+page419.o: page419.c 
+	gcc -Wall -g page419.c
+
+
+
+
+
